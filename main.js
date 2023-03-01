@@ -1,4 +1,4 @@
-window.MainFunc = function (){
+MainFunc = function (){
     if (!window.addons){
         initFunction()
     }
