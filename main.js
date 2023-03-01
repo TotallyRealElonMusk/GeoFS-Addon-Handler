@@ -1,4 +1,3 @@
-function MainFunc(){
     if (!window.addons){
         initFunction()
     }
@@ -49,4 +48,4 @@ controls.roll=clamp(controls.roll,-1,1);controls.rawPitch=clamp(controls.rawPitc
             eval(textureURL)
         }
     }
-}
+
