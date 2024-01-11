@@ -22,7 +22,7 @@
         controlsUpdate+='}'
 
         let textureURL = `geofs.fx.texture2url={smoke:"images/particles/smoke-light.png",whitesmoke:"images/particles/smoke-white.png",darkSmoke:"images/particles/smoke-dark.png",contrails:"images/particles/contrails.png",1:"images/lights/yellowflare.png",2:"images/lights/redflare.png",3:"images/lights/greenflare.png",white:"images/lights/whitelight.png",red:"images/lights/redlight.png",green:"images/lights/greenlight.png",whitepapi:"images/lights/whitepapi.png",redpapi:"images/lights/redpapi.png"`
-        //addons.maritime ? textureURL+=`,blue: "https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Extra-Maritime-Structures/main/lights/bluepapi.png",orange: 'https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Extra-Maritime-Structures/main/lights/orangepapi.png'` : null
+        addons.maritime ? textureURL+=`,blue: "https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Extra-Maritime-Structures/main/lights/bluepapi.png",orange: 'https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Extra-Maritime-Structures/main/lights/orangepapi.png'` : null
         addons.smoke ? textureURL+=`,blueSmoke: "https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Airshow-Smoke-Addon/main/smokes/blue%20smoke.png", redSmoke:"https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Airshow-Smoke-Addon/main/smokes/red%20smoke.png", yellowSmoke:"https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Airshow-Smoke-Addon/main/smokes/yellow%20smoke.png", greenSmoke:"https://raw.githubusercontent.com/TotallyRealElonMusk/GeoFS-Airshow-Smoke-Addon/main/smokes/green%20smoke.png"` : null
         textureURL+='}'
 
