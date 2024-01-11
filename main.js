@@ -8,7 +8,7 @@
         //controls.runNodeClickHandlers=function(n){for(var o in internalNodeHandlerManips(n),controls.nodeClickHandlers)o==n&&controls.nodeClickHandlers[o](n)};
 
         let TouchNode = `controls.runNodeClickHandlers=function(n){`
-        //addons.maritime ? TouchNode+='internalNodeHandlerMaritime(n);' : null
+        addons.maritime ? TouchNode+='internalNodeHandlerMaritime(n);' : null
         addons.manips ? TouchNode+='internalNodeHandlerManips(n);' : null
         TouchNode+=`for(var d in controls.nodeClickHandlers)d==n&&controls.nodeClickHandlers[d](n)};`
 
